@@ -1,0 +1,25 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local build and cache files for future components
+node_modules/
+dist/
+build/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Personal test data
+*.sqlite3
+*.db
